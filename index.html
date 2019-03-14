@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<![endif]-->
+    <title>IT Media</title>
+    <!-- BOOTSTRAP CORE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- ION ICONS STYLES -->
+    <link href="assets/css/ionicons.css" rel="stylesheet" />
+    <!-- FONT AWESOME ICONS STYLES -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- FANCYBOX POPUP STYLES -->
+    <link href="assets/js/source/jquery.fancybox.css" rel="stylesheet" />
+    <!-- STYLES FOR VIEWPORT ANIMATION -->
+    <link href="assets/css/animations.min.css" rel="stylesheet" />
+    <!-- CUSTOM CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#menu-section">
+    <!--MENU SECTION START-->
+    <div class="navbar navbar-inverse navbar-fixed-top scroll-me" id="menu-section">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home">
+
+<img src="assets/img/logo.png" width="80px" alt="IT Media">
+
+
+</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">О нас</a></li>
+                    <li><a href="#services">Наши курсы</a></li>
+                    <!-- <li><a href="#pricing">Языковые курсы</a></li> -->
+                    <!-- <li><a href="#work">WORK</a></li> -->
+                    <li><a href="#team">Преподаватели</a></li>
+                    <!-- <li><a href="#grid">GRID</a></li> -->
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--MENU SECTION END-->
+    <!--HOME SECTION START-->
+    <div id="home" class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6  col-md-6  col-lg-6 ">
+                    <div id="carousel-slider" data-ride="carousel" class="carousel slide  animate-in" data-anim-type="fade-in-up">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <h3>
+                                IT MEDIA —
+                                </h3>
+                                <p>
+                                    курсы, после которых работают!
+                                </p>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="conditions">
+                        <h3>Условия приема:</h3>
+                        <ul>
+                            <li>Предварительных знаний в области программирования и в области информационных технологий не требуется.</li>
+                            <li>Наличие среднего специального или высшего образования в другой области привествуестся, но необходимым условием для поступления не является.</li>
+                            <li>Среднее образование ОБЯЗАТЕЛЬНО.</li>
+                        </ul>
+                        <div class="special">
+                            * Также у нас осуществляется преподавание курса «Основы программировани» на английском, французком, испанском языках. Количество слушателей в группах по 8-10 человек. Продолжительность занятия по 2 часа, 2 раза в неделю.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="apply">
+                    <a href="#myModal1" class=" btn button-custom btn-custom-two" data-toggle="modal">Подать заявку</a>
+                </div>
+                <div id="myModal1" class="modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                <!-- <h4 >Подать заявку на курс</h4> -->
+                                <h4 class="modal-title">Пожалуйста, выберите курс:</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="contact-form">
+                                    <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <!--   <label for="sel1">Пожалуйста, выберите курс:</label> -->
+                                                    <select name="course" class="form-control" id="course">
+                                              
+                                                        <!-- <option value="Javascript">Javascript</option> -->
+                                                         <option value="С#_basics">Курс С# basics</option>
+                                                        <option value="С#_advanced">Курс С# advanced</option>
+                                                        <option value="Angular">Angular</option>
+                                                        <option value="Magento2">Magento 2</option>
+                                                        <option value="English">Английский</option>
+                                                        <option value="Francais">Французский</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input class="form-control" id="name" type="text" placeholder="Ваше имя *" required="required" data-validation-required-message="Пожалуйста, введите ваше имя.">
+                                                    <p class="help-block text-danger"></p>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input class="form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Пожалуйста, введите ваш email.">
+                                                    <p class="help-block text-danger"></p>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input class="form-control" id="phone" type="tel" placeholder="Телефон *" required="required" data-validation-required-message="Пожалуйста, введите ваш номер телефона.">
+                                                    <p class="help-block text-danger"></p>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                            <div class="col-lg-12 text-center">
+                                                <div id="success"></div>
+                                                <button type="button" class="btn button-custom btn-custom-two" data-dismiss="modal">Закрыть</button>
+                                                <button id="sendMessageButton" type="submit" class="btn button-custom btn-custom-two">Подать заявку</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- <div class="modal-footer">
+                    <button type="button" class="btn button-custom btn-custom-two" data-dismiss="modal">Закрыть</button>
+                    <button id="sendMessageButton" type="submit" class="btn button-custom btn-custom-two">Подать заявку</button>
+                </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <!--HOME SECTION END-->
+    <!--SERVICE SECTION START-->
+    <section id="services">
+        <div class="container">
+            <div class="row text-center header">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 animate-in" data-anim-type="fade-in-up">
+                    <h3>Наши курсы</h3>
+                    <hr />
+                </div>
+            </div>
+            <div class="row animate-in" data-anim-type="fade-in-up">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <a href="basic.html"><div class="services-wrapper">
+                        <!-- <i class="ion-clipboard"></i> -->
+                        <img src="assets/img/icons/csharp.svg" alt="c#" width="75px" height="75px">
+                        <h3>C# basics</h3> Курс ориентирован на тех, кто только начинает изучать язык С# и хочет научиться использовать основные его возможности.
+                    </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <a href=""><div class="services-wrapper">
+                        <img src="assets/img/icons/csharp.svg" alt="c#" width="75px" height="75px">
+                        <h3>C# advanced</h3> Данный курс сейчас находится в разработке. Ожидаемая дата старта курса - июнь-июль 2019 года.
+                    </div>
+                     </a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <a href="english.html"><div class="services-wrapper">
+                        <img src="assets/img/icons/english.svg" alt="c#" width="75px" height="75px">
+                        <h3>Английский</h3> Курс подходит для всех желающих приступить к изучению или усовершенствовать свои знания английского языка. 
+                    </div>
+                     </a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <a href="magento2.html"><div class="services-wrapper">
+                        <img src="assets/img/icons/magento.svg" alt="c#" width="75px" height="75px">
+                        <h3>Magento 2</h3> Курс посвящен разработке интернет-магазинов на e-commerce платформе <br>Magento2
+                    </div>
+                     </a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <a href="angular.html"><div class="services-wrapper">
+                         <img src="assets/img/icons/angular.svg" alt="c#" width="75px" height="75px">
+                        <h3>Angular</h3> Курс посвящен проектированию клиентской части веб-приложений на базе фреймворка Angular. 
+
+                    </div>
+                     </a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <a href="french.html"><div class="services-wrapper">
+                         <img src="assets/img/icons/francais.svg" alt="c#" width="75px" height="75px">
+                        <h3>Французский</h3> Курс подходит для всех желающих приступить к изучению или усовершенствовать свои знания французского языка. 
+                    </div>
+                     </a>
+                </div>
+               
+            </div>
+        </div>
+        <!--TEAM SECTION START-->
+        <section id="team">
+            <div class="container">
+                <div class="row text-center header animate-in" data-anim-type="fade-in-up">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h3>Преподаватели</h3>
+                        <hr />
+                    </div>
+                </div>
+                <div class="row animate-in" data-anim-type="fade-in-up">
+                    <!--    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3"> -->
+                    <div class="col-xs-6 col-sm-1-5  col-md-1-5  col-lg-1-5">
+                        <div class="team-wrapper" data-toggle="modal" data-target="#myModa2">
+                            <div class="team-inner" style="background-image: url('assets/img/team/1.jpg')">
+                                <!-- <a href="#" target="_blank"> <i class="fa fa-facebook" ></i></a> -->
+                            </div>
+                            <div class="description">
+                                <h3>   Елена   Ивановна   Сальник </h3>
+                                <h5> <strong> Преподаватель английского</strong></h5>
+                                <p>
+                                    Опыт работы по специальности: 17 лет.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Модальное окно -->
+                        <div class="modal fade" id="myModa2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <h4 class="modal-title" id="myModalLabel">О преподавателе:</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="assets/img/team/1.jpg">
+                                        <h3>   Елена   Ивановна   Сальник </h3>
+                                        <h5> <strong> Преподаватель английского</strong></h5>
+                                        <p>
+                                            Освіта: Вища, Харківський національний університет ім. В.Н. Каразіна, 2001 рік
+                                            Харківський національний педагогічний університет ім. Г.С. Сковороди, 2005 рік
+                                            Фах за дипломом: Перекладач-референт, викладач французької та англійської мов; юрист
+                                            Педагогічний стаж: 17 років
+                                            Кваліфікаційна категорія, педагогічне звання: вища, старший учитель
+                                            Досвідчений і творчий педагог. Проводить заняття на високому науково-методичному рівні, досконало володіє французькою, постійно удосконалює зміст, форми та методи проведення занять, забезпечує високу результативність та якість навчального процесу. Володіє методикою проведення сучасного уроку, впроваджує у навчально-виховний процес інноваційні технології. З метою формування пізнавального інтересу до предмету, розвитку творчого, продуктивного мислення, самостійності, вміння спілкуватися використовує різні форми інтерактивного навчання. На заняттях завжди створюються комфортні умови, за яких кожен слухач має можливість висловити свою думку, розкрити свої здібності, отримати позитивні емоції від процесу навчання, відчути впевненість у собі.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="myModa3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <h4 class="modal-title" id="myModalLabel">О преподавателе:</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="assets/img/team/2.jpg">
+                                        <h3>   Людмила Анатольевна Танкович </h3>
+                                        <h5> <strong> Преподаватель французского</strong></h5>
+                                        <p>
+                                           Освіта: Вища, Харківський національний університет ім. В.Н. Каразіна, 2006 рік
+Фах за дипломом: перекладач французької мови, англійської мови; викладач французької мови та літератури, англійської мови 
+Педагогічний стаж: 12 років
+Кваліфікаційна категорія: перша
+Викладач володіє інноваційними освітніми методиками й технологіями, активно їх використовує та поширює у професійному середовищі; володіє широким спектром стратегій навчання; застосовує нестандартні форми проведення уроку; активно впроваджує форми та методи організації навчального процесу, що забезпечують максимальну самостійність навчання учнів. Постійно вдосконалює свій професійний рівень. 
+Брала участь у XXXІІІ обласній тематичній виставці педагогічного досвіду «Освіта XXІ століття» за темою «Інноваційні навчання іноземних мов», де отримала диплом ІІІ ступеню.   Брала участь в обласній виставці “Рік англійської мови” , де посіла перше місце. Постійно відвідує семінари з методики викладання англійської мови. 
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="myModa4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <h4 class="modal-title" id="myModalLabel">О преподавателе:</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="" alt="Павел Александрович Усачев">
+                                        <h3>   Павел Александрович Усачев </h3>
+                                        <h5> <strong> Преподаватель курса "Magento 2"</strong></h5>
+                                        <p>
+                                            
+                                        </p>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br> 
+                                         <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                       
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="myModa5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <h4 class="modal-title" id="myModalLabel">О преподавателе:</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="assets/img/team/4.jpg">
+                                        <h3>   Александр Александрович Фомичев </h3>
+                                        <h5> <strong> Преподаватель курсов "C# basics" и "C# advanced", кандидат технических наук</strong></h5>
+                                        <p>
+                                           Практикующий разработчик и преподаватель ХНУРЭ, кандидат технических наук. Опыт разработки на C# — 3 года. Опыт преподавания, проведения курсов и стажировок — более 6 лет. Работает в одной из крупнейших компаний Харькова на языке С# и проводит стажировки. Подготовил на стажировках несколько десятков C# и Unity разработчиков, которые были приняты на работу и прошли испытательный срок.
+                                        </p>
+                                         <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="myModa6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <h4 class="modal-title" id="myModalLabel">О преподавателе:</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="assets/img/team/6.jpg">
+                                        <h3>   Владимир Михайлович Гиковатый </h3>
+                                        <h5> <strong> Преподаватель курса "Angular", кандидат экономических наук, доцент</strong></h5>
+                                        <p>
+                                        Общий стаж разработки программного обеспечения 20 лет, из них 11 лет    .NET Full Stack разработчик в сфере создания Web-приложений. На курсах «стане у нагоді» 19-летний опыт преподавания в ВУЗе.  
+
+                                        </p>
+                                         <br>
+                                        <br>
+                                        <br>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-1-5  col-md-1-5  col-lg-1-5">
+                        <div class="team-wrapper" data-toggle="modal" data-target="#myModa3">
+                            <div class="team-inner" style="background-image: url('assets/img/team/2.jpg')">
+                                <!--  <a href="#" target="_blank"> <i class="fa fa-twitter" ></i></a> -->
+                            </div>
+                            <div class="description">
+                                <h3> Людмила Анатольевна Танкович </h3>
+                                <h5> <strong> Преподаватель французского </strong></h5>
+                                <p>
+                                    Опыт работы по специальности: 12 лет.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-1-5  col-md-1-5  col-lg-1-5">
+                        <div class="team-wrapper" data-toggle="modal" data-target="#myModa4">
+                            <div class="team-inner" style="background-image: url('assets/img/team/3.jpg')">
+                                <!-- <a href="#" target="_blank"> <i class="fa fa-twitter" ></i></a> -->
+                            </div>
+                            <div class="description">
+                                <h3> Павел Александрович Усачев</h3>
+                                <h5> <strong> Преподаватель курса Magento 2 </strong></h5>
+                                <p>
+                                    Pellentesque elementum dapibus convallis. Vivamus eget finibus massa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-1-5  col-md-1-5  col-lg-1-5">
+                        <div class="team-wrapper" data-toggle="modal" data-target="#myModa5">
+                            <div class="team-inner" style="background-image: url('assets/img/team/4.jpg')">
+                                <!-- <a href="#" target="_blank"> <i class="fa fa-twitter" ></i></a> -->
+                            </div>
+                            <div class="description">
+                                <h3>Александр Александрович Фомичёв</h3>
+                                <h5> <strong> Преподаватель курса "C# basics"</strong></h5>
+                                <p>
+                                    Опыт разработки на C#: 3 года.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-1-5  col-md-1-5  col-lg-1-5">
+                        <div class="team-wrapper" data-toggle="modal" data-target="#myModa6">
+                            <div class="team-inner" style="background-image: url('assets/img/team/5.jpg')">
+                                <!--  <a href="#" target="_blank"> <i class="fa fa-twitter" ></i></a> -->
+                            </div>
+                            <div class="description">
+                                <h3> Владимир Михайлович Гиковатый</h3>
+                                <h5> <strong> Преподаватель курса "Angular" </strong></h5>
+                                <p>
+                                    Общий стаж разработки программного обеспечения 20 лет, из них 11 лет — .NET Full Stack разработчик в сфере создания Web-приложений.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--TEAM SECTION END-->
+       
+        <!--CONTACT SECTION START-->
+        <section id="contact">
+            <div class="container">
+                <div class="row text-center header animate-in" data-anim-type="fade-in-up">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h3>Контакты </h3>
+                        <hr />
+                    </div>
+                </div>
+                <div class="row animate-in" data-anim-type="fade-in-up">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="contact-wrapper">
+                            <h3>Мы в соцсетях</h3>
+                            <p>
+                                ....
+                                ....
+                            </p>
+                            <!-- <div class="social-below">
+<a href="#" class="btn button-custom btn-custom-two" > Facebook</a>
+<a href="#" class="btn button-custom btn-custom-two" > Twitter</a>
+<a href="#" class="btn button-custom btn-custom-two" > Google +</a>
+</div> -->
+                            <div class="social">
+                                <a href="#" class="btn button-custom btn-custom-one"><i class="fa fa-facebook "></i></a>
+                                <a href="#" class="btn button-custom btn-custom-one"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="btn button-custom btn-custom-one"><i class="fa fa-google-plus "></i></a>
+                                <a href="#" class="btn button-custom btn-custom-one"><i class="fa fa-linkedin "></i></a>
+                                <a href="#" class="btn button-custom btn-custom-one"><i class="fa fa-pinterest "></i></a>
+                                <a href="#" class="btn button-custom btn-custom-one"><i class="fa fa-github "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="contact-wrapper">
+                            <h3>Быстрая связь</h3>
+                            <h4><strong>Email : </strong> oleg.itmedium@gmail.com </h4>
+                            <h4><strong>Телефон : </strong> 050-951-87-60, 067-709-67-00</h4>
+                            <h4><strong>Skype : </strong> IT MEDIA KHTURE </h4>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="contact-wrapper">
+                            <h3>Наш адрес : </h3>
+                            <h4>61166, Харьков, пр. Науки, 14</h4>
+                            <h4>Украина</h4>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAg7j6C1CVp3kQ7vybmqn-N1ufmvczU-T4'></script>
+                        <div style='overflow:hidden;height:400px;width:100%;'>
+                            <div id='gmap_canvas' style='height:400px;width:100%;'></div>
+                            <div><small><a href="https://embedgooglemaps.com/en/">embedgooglemaps EN</a></small></div>
+                            <div><small><a href="https://mrpromokod.ru/">mrpromokud</a></small></div>
+                            <style>
+                                #gmap_canvas img {
+                                max-width: none!important;
+                                background: none!important
+                            }
+                            </style>
+                        </div>
+                        <script type='text/javascript'>
+                        function init_map() {
+                            var myOptions = { zoom: 17, center: new google.maps.LatLng(50.014791, 36.22849080000003), mapTypeId: google.maps.MapTypeId.ROADMAP };
+                            map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                            marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(50.014791, 36.22849080000003) });
+                            infowindow = new google.maps.InfoWindow({ content: '<strong>Харківський національний університет радіолектроніки</strong><br><br>' });
+                            google.maps.event.addListener(marker, 'click', function() { infowindow.open(map, marker); });
+                            infowindow.open(map, marker);
+                        }
+                        google.maps.event.addDomListener(window, 'load', init_map);
+                        </script>
+                    </div>
+                    <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                         <img src="assets/img/map.jpg" alt="проспект Науки, 14" width="100%" height="400px">
+                       </div>  -->
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="footer-div" align="right">
+                            &copy; 2019 IT Media| <a href="http://www.olvia-design.com/" target="_blank"> by Olvia Design</a>
+                        </div>
+                    </div>
+        </section>
+        <!--CONTACT SECTION END-->
+        <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME -->
+        <!-- CORE JQUERY -->
+        <script src="assets/js/jquery-1.11.1.js"></script>
+        <!-- BOOTSTRAP SCRIPTS -->
+        <script src="assets/js/bootstrap.js"></script>
+        <!-- EASING SCROLL SCRIPTS PLUGIN -->
+        <script src="assets/js/vegas/jquery.vegas.min.js"></script>
+        <!-- VEGAS SLIDESHOW SCRIPTS -->
+        <script src="assets/js/jquery.easing.min.js"></script>
+        <!-- FANCYBOX PLUGIN -->
+        <script src="assets/js/source/jquery.fancybox.js"></script>
+        <!-- ISOTOPE SCRIPTS -->
+        <script src="assets/js/jquery.isotope.js"></script>
+        <!-- VIEWPORT ANIMATION SCRIPTS   -->
+        <script src="assets/js/appear.min.js"></script>
+        <script src="assets/js/animations.min.js"></script>
+        <!-- CUSTOM SCRIPTS -->
+        <script src="assets/js/custom.js"></script>
+        <!-- Contact form JavaScript -->
+        <script src="assets/js/jqBootstrapValidation.js"></script>
+        <script src="assets/js/contact_me.js"></script>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> -->
+        <!-- модальное окно открыть-->
+        <!--
+    <script>
+    $(function () {
+        $("#btn2").click(function () {
+            $("#myModal2").modal('show');
+        });
+    });
+</script> -->
+</body>
+
+</html>
